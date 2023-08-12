@@ -17,7 +17,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [x] List anything else that you can get done to improve the app functionality!
+* [x] A few navigation links to the right of the header that would redirect the user
+* [x] A donate button for all games that would redirect the user to a contact box 
 
 ## Video Walkthrough
 
