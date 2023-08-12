@@ -161,7 +161,9 @@ const correctGamePluralStr = numberOfUnfunded === 1 ? 'game' : 'games';
 const remainGrammar = numberOfUnfunded === 1 ? 'remains' : 'remain';
 
 const displayStr = `
+<div class="alignContent">
 A total of $${totalRaised.toLocaleString('en-US')} has been raised for ${GAMES_JSON.length} games. Currently, ${numberOfUnfunded} ${correctGamePluralStr} ${remainGrammar} unfunded. We need your help to fund ${correctGamePluralStr === 'game' ? 'this amazing game!' : 'these amazing games!'}
+</div>
 `;
 
 
