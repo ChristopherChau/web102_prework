@@ -38,7 +38,7 @@ GIF created with Kap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One big challenge I had while making this was trying to work with the GIF recorder as I was having a difficult time creating a GIF that would be under the 10 mb.
 
 ## License
 
