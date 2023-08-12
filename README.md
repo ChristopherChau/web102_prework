@@ -24,7 +24,8 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 
-![Sea Monster Funds](https://github.com/ChristopherChau/web102_prework/assets/114549705/00026f54-2d2a-4cad-af11-eed055a7c2c7)
+![Sea Monster Funds](https://github.com/ChristopherChau/web102_prework/assets/114549705/bfd6a415-5af2-4116-af29-4ebe8c28b551)
+
 
 
 
