@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    background-image: linear-gradient(to bottom, #99b0cd, #3d4858);
 }
+
+
 
 #tentacles {
     width: 50px;
 }
 
+
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: rgba(156, 214, 233, 0.612);
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -19,6 +21,12 @@ body {
     margin-top: -10px;
 }
 
+#description-container {
+    background-color: rgba(255, 255, 255, 0.2); /* Slight white background with opacity for description container */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 .stats-container {
     display: flex;
     align-items: center;
@@ -26,6 +34,7 @@ body {
 .stats-container:hover{
     cursor:pointer;
     box-shadow: 0 0 30px lightblue;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 .stats-card {
@@ -65,6 +74,7 @@ body {
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 #button-container {
@@ -77,4 +87,11 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+button:hover {
+    background-color: lightblue;
+    color: #ffffff;
+    box-shadow: 0 0 10px lightblue;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor:pointer;
 }
