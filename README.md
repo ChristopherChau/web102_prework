@@ -26,7 +26,7 @@ Here's a walkthrough of implemented features:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
-![Uploading Kapture 2023-08-12 at 03.20.00.gif…]()
+
 
 GIF created with Kap
 <!-- Recommended tools:
