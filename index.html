@@ -8,10 +8,18 @@
 
   <body>
     <!-- header row with logo -->
-    <div class="header">
-        <img id="tentacles" src="assets/tentacles.png">
-        <h1 class="header-text">Sea Monster Crowdfunding</h1>
+    <div class="header" id="top">
+        <div class="header-left">
+            <img id="tentacles" src="assets/tentacles.png">
+            <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        </div>
+        <nav class="header-links">
+            <a href="#top">Home</a>
+            <a href="#gamesSection">Games</a>
+            <a href="#donate-section">Contact Us</a>
+        </nav>
     </div>
+    
 
     <!-- background info about company -->
     <div id="description-container">
@@ -20,7 +28,7 @@
     </div>
 
     <!-- top games & other interesting stats -->
-    <h2>Stats</h2>
+    <h2 class="alignContent">Stats</h2>
     <div class="stats-container">
         <div class="stats-card">
             <h3>Individual Contributions</h3>
@@ -48,15 +56,31 @@
     </div>
 
     <!-- list of games funded by Sea Monster -->
-    <h2>Our Games</h2>
-    <p>Check out each of our games below!</p>
+    <h2 class="alignContent">Our Games</h2>
+    <p class="alignContent"id="gamesSection">Check out each of our games below!</p>
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
         <button id="funded-btn">Show Funded Only</button>
         <button id="all-btn">Show All Games</button>
     </div>
     <div id="games-container">
-
+    </div>
+    
+    
+    
+    <div class="footer" id="donate-section">
+        <div class="contactUsBox">
+            <div class="contactContent">
+                <h4 style="text-align:center; margin-bottom:0px;" >Contact us for more information on how to support us!</h4>
+                <label style="font-size:18px;">First Name</label>
+                <input class="nameInput"type="text" placeholder="Your first name..">
+                <label style="font-size:18px;">Last Name</label>
+                <input class="nameInput"type="text" placeholder="Your last name..">
+                <label style="font-size:18px;">Your Message To Us</label>
+                <input class="nameInput"type="text" placeholder="Let us know how you want to help here..">
+            </div>
+            
+        </div>
     </div>
 
     <script type="module" src="index.js"></script>

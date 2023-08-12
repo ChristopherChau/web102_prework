@@ -16,13 +16,41 @@ body {
     background-color: rgba(156, 214, 233, 0.612);
     padding: 1%;
     align-items: center;
+    justify-content: space-between;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    margin: 0; 
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Cabin';
+    transition: color 0.3s ease;
+}
+
+.header-links a:hover {
+    color: #4c5eaf;
+}
+
+
 #description-container {
-    background-color: rgba(255, 255, 255, 0.2); /* Slight white background with opacity for description container */
+    background-color: rgba(255, 255, 255, 0.2); 
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -48,6 +76,10 @@ body {
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
+}
+
+.alignContent{
+    text-align: center;
 }
 
 #games-container {
@@ -82,16 +114,67 @@ body {
 }
 
 button {
-    font-family: 'Cabin';
+    font-family: 'Cabin', sans-serif;
     border: none;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 7px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #494949;
+    background-color: lightgray;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 button:hover {
-    background-color: lightblue;
+    background-color:#374969;
     color: #ffffff;
-    box-shadow: 0 0 10px lightblue;
+    box-shadow: 0 0 10px rgb(130, 188, 207);
     transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     cursor:pointer;
+}
+
+.donate-button{
+    background-color: green;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    font-family:'Cabin';
+    text-decoration: none;
+    padding:5px 8px;
+    cursor:pointer;
+}
+.donate-button:hover {
+    background-color: darkgreen;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+
+.footer{
+    background-color: rgb(120, 166, 209);
+    display:flex;
+    align-items: center;
+    margin:0px -7px;
+    margin-bottom:-8px;
+    justify-content: center;
+}
+
+.contactUsBox{
+    background-color: lightgray;
+    border-radius:10px;
+    font-family: 'Cabin';
+    font-size:20px;
+    padding-bottom:10px;
+    margin: 10px 50px 10px 50px;
+}
+
+.contactContent{
+    padding: 0px 100px;
+}
+
+.nameInput{
+    padding:8px 0px;
+    padding-left:10px;
+    width: 100%;
+    
 }

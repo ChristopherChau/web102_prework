@@ -41,6 +41,7 @@ function addGamesToPage(games) {
         <p>${games[i].description}}</p>
         <p>Backers: ${games[i].backers}</p>
         <p>Total Pledged: ${games[i].pledged}</p>
+        <a href="#donate-section" class="donate-button">Donate Now</a>
         `;
 
         gamesContainer.appendChild(gameCardInfo);
