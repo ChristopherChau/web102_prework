@@ -39,8 +39,8 @@ function addGamesToPage(games) {
         <img src = "${games[i].img}" class="game-img">
         <h2>${games[i].name}</h2>
         <p>${games[i].description}}</p>
-        <p>Backers: ${games[i].backers}</p>
-        <p>Total Pledged: ${games[i].pledged}</p>
+        <p>Backers: ${games[i].backers.toLocaleString('en-US')}</p>
+        <p>Total Pledged: $${games[i].pledged.toLocaleString('en-US')}</p>
         <a href="#donate-section" class="donate-button">Donate Now</a>
         `;
 
