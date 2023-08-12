@@ -23,7 +23,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+![Sea Monster Funds](https://github.com/ChristopherChau/web102_prework/assets/114549705/00026f54-2d2a-4cad-af11-eed055a7c2c7)
 
 
 
